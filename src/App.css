@@ -1,0 +1,290 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;  
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+a {color: white;}
+
+.App {height: 100%;}
+
+.NavBar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  background-color: rgb(25, 25, 25);
+}
+
+.NavBar > a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 10px 5px 10px;
+}
+
+.NavBar > a > svg {
+  vertical-align: middle;
+  padding-bottom: 7px;
+  padding-right: 10px;
+}
+
+.NavBar > a:hover {text-decoration: underline;}
+
+.NavBar > a:first-child {
+  text-align: left;
+  flex: 1 1 auto;
+}
+
+.NavBar > a:not(:first-of-type) {text-align: right;}
+.NavBar a.Button {display: none;}
+
+@media screen and (max-width: 900px) {
+  .NavBar > a {font-size: 20px;}
+  .NavBar > a:not(:first-child) {display: none;}
+  .NavBar > a.Button {font-size: 25px; display: inline-block;}
+
+  .NavBar.responsive {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar.responsive > a {
+    display: block;
+    text-align: center;
+  }
+
+  .NavBar.responsive > a:hover {
+    background-color: rgb(75, 75, 75);
+    text-decoration: none;
+  }
+
+  .NavBar.responsive > a:first-child {display: inline-block;}
+  .NavBar.responsive > a.Button {float: right;}
+  .NavBar.responsive > a.Button:hover {background-color: transparent;}
+}
+
+.content-container {
+  box-sizing: content-box;
+  font-size: 35px;
+  padding: 10px 25px 25px 25px;
+  overflow: auto;
+}
+
+.content-container a {
+  color: white;
+  font-weight: bold;
+}
+
+.content-container svg {
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.intro {
+  background-color: black;
+  padding-top: 50px;
+}
+
+.intro h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.profile-image {
+  float: right;
+  width: 400px;
+  margin: 25px 50px 10px 50px;
+}
+
+.section_title {
+  text-align: center;
+  font-size: 50px;
+}
+
+hr {
+  margin: 0px 7.5vw 30px 7.5vw;
+  background-color: white;
+  height: 2px;
+  border: 0;
+}
+
+.skill_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1120px;
+  margin: 0px auto 30px auto;
+}
+
+.skill_list div {
+  display: table-row-group;
+  margin: 10px 20px 10px 10px;
+}
+
+.skill_list p {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px 15px 0px;
+}
+
+.skill_list svg {
+  border: 5px solid white;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.project .screenshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+
+.project > h2 {
+  font-size: 40px;
+}
+
+.project .logo {
+  float: left;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.project > p {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-container div {
+  display: table-row-group;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.contact-container .copyLogo {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.contact-container .logo {
+  margin-top: 10px;
+  font-size: 100px;
+}
+
+.contact-container p {
+  text-align: center;
+  padding: 0px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.quote {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 15px 10px 15px;
+}
+
+.footer {
+  font-size: 15px;
+  padding: 10px 20px 5px 0px;
+  text-align: right;
+  background-color: black;
+}
+
+@media (max-width: 800px) {
+  .content-container {
+    margin-right: 0.5vw;
+    font-size: 30px;
+  }
+
+  .intro {padding-top: 150px;}
+
+  .profile-image {
+    float: none;
+    display: block;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project .screenshot {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .intro {padding-top: 50px;}
+}
+
+@media (min-width: 1920px) {
+  .content-container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .skill_list {
+    width: auto;
+    margin: 10px 15vw 10px 15vw;
+  }
+}
+
+@media (max-width: 800px) {
+    .skill_list {margin: 10px 2.5vw 10px 2.5vw;}
+}
+
+@media (max-width: 650px) {
+  .skill_list {margin: 10px 2.5vw 10px 2.5vw;}
+  .skill_list div {margin: 5px 10px 5px 10px;}
+  
+  .skill_list p {
+    font-size: 30px;
+    margin: 5px 0px 10px 0px;
+  }
+  
+  .skill_list svg {
+    border: 3.5px solid white;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .skill_list p {
+    font-size: 20px;
+    margin: 5px 0px 10px 0px;
+  }
+  
+  .skill_list svg {
+    border: 2.5px solid white;
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+  }
+}
