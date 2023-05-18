@@ -1,4 +1,4 @@
-# React Alejandrocora's Portfolio
+# Alejandrocora's React Portfolio
 
 Very simple React Portfolio made from scratch.
 
