@@ -4,13 +4,15 @@ Very simple React Portfolio made from scratch.
 
 To start the development server:
 
-`yarn start-client`
+`$ yarn start-client`
 
 To build the Distribution files:
 
-`yarn build`
+`$ yarn build`
 
 To run the final server:
 
-```cd server```
-```yarn start```
+```
+$ cd server
+$ yarn start
+```
