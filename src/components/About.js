@@ -1,4 +1,4 @@
-import { SiCplusplus, SiNodedotjs, SiJavascript, SiHtml5, SiSelenium, SiGnubash, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from "react-icons/si";
+import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiGnubash, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
 function About() {
@@ -43,8 +43,8 @@ function About() {
           <p>JavaScript</p>
         </div>
         <div>
-          <SiHtml5 />
-          <p>HTML5</p>
+          <SiReact />
+          <p>React</p>
         </div>
         <div>
           <SiCplusplus />
