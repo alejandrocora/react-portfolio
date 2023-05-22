@@ -2,7 +2,7 @@
 
 Very simple React Portfolio made from scratch.
 
-To start the development server:
+To start the Development server:
 
 `$ yarn start-client`
 
