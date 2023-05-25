@@ -39,6 +39,10 @@ a {color: white;}
   padding-right: 10px;
 }
 
+.NavBar > a > img {
+  width: 18px;
+}
+
 .NavBar > a:hover {text-decoration: underline;}
 
 .NavBar > a:first-child {
@@ -49,7 +53,7 @@ a {color: white;}
 .NavBar > a:not(:first-of-type) {text-align: right;}
 .NavBar a.Button {display: none;}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
   .NavBar > a {font-size: 20px;}
   .NavBar > a:not(:first-child) {display: none;}
   .NavBar > a.Button {font-size: 25px; display: inline-block;}

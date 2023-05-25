@@ -1,19 +1,22 @@
 import profile_picture from '../images/foto_perfil.jpg';
 import { AiFillGithub } from "react-icons/ai"
+import { Trans } from 'react-i18next';
 
 function Home() {
   return (
     <div id="home" className="content-container intro">
       <img className='profile-image' src={profile_picture} />
-      <h1>Soy Alejandro Zapico,</h1>
+      <h1>
+        <Trans i18nKey="home.title" />
+      </h1>
       <p>
-        y soy <b>autodidácta</b>. Con 13 años descubrí la programación, y desde entonces no he parado de aprender.
+        <Trans i18nKey="home.p1" />
       </p>
       <p>
-        Además de la programación, tengo conocimientos en Ciberseguridad, Redes y Sistemas Operativos, pero mi mayor virtud es la perseverancia y habilidad para aprender lo que tenga por delante.
+        <Trans i18nKey="home.p2" />
       </p>
       <p>
-        ¡Pásate por mi cuenta de <a href="https://github.com/alejandrocora" target="_blank">GitHub</a> <AiFillGithub /> para ver mis proyectos!
+        <Trans i18nKey="home.p3" components={{ image: <AiFillGithub />, O: <a href="https://github.com/alejandrocora" target="_blank" rel="noopener noreferrer" /> }} />
       </p>
     </div>
   );

@@ -1,8 +1,10 @@
+import { Trans } from 'react-i18next';
+
 function Footer() {
   return (
     <div className="footer">
-      <p>Sitio hecho desde cero con Node.js + React en Debian. TLS y Dominio configurado manualmente.</p>
-      <p><a href="https://github.com/alejandrocora/react-portfolio.git" target="_blank">Código Fuente.</a></p>
+      <p><Trans i18nKey="footer.p1" /></p>
+      <p><Trans i18nKey="footer.p2" components={ { O: <a href="https://github.com/alejandrocora/react-portfolio.git" target="_blank" /> } } /></p>
     </div>
   )
 }

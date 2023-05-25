@@ -1,4 +1,5 @@
 import { AiFillLinkedin, AiOutlinePhone, AiOutlineMail, AiOutlineCopy, AiOutlineWhatsApp } from "react-icons/ai";
+import { Trans } from 'react-i18next';
 
 function Contact() {
   function copyToClipboard(t, a) {
@@ -9,7 +10,7 @@ function Contact() {
   return (
     <div>
       <hr />
-      <h1 className="section_title">Contacto</h1>
+      <h1 className="section_title"><Trans i18nKey="contact" /></h1>
       <div id="contact" className="contact-container">
           <div>
             <AiOutlinePhone className="logo" />
