@@ -17,12 +17,16 @@ function About() {
           <p>Python</p>
         </div>
         <div>
-          <SiNodedotjs />
-          <p>Node.js</p>
+          <SiSelenium />
+          <p>Selenium</p>
         </div>
         <div>
           <SiJavascript />
           <p>JavaScript</p>
+        </div>
+        <div>
+          <SiNodedotjs />
+          <p>Node.js</p>
         </div>
         <div>
           <SiReact />
@@ -35,10 +39,6 @@ function About() {
         <div>
           <FaJava />
           <p>Java</p>
-        </div>
-        <div>
-          <SiSelenium />
-          <p>Selenium</p>
         </div>
         <div>
           <SiGnubash />

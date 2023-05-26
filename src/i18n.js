@@ -19,17 +19,17 @@ i18next
         },
         home: {
           title: 'I am Alejandro Zapico.',
-          p1: "When I was 13 I discovered coding and I haven't stopped learning since then.",
-          p2: "In addition to coding, I have knowledge in cybersecurity, networks, and operating systems, but my greatest virtue is perseverance and the ability to learn whatever comes my way.",
+          p1: "When I was 13 I discovered coding and I haven't stopped learning since.",
+          p2: "In addition to coding, I am knowledgeable in cybersecurity, networks, and Operating Systems, but my greatest skill is my ability to learn whatever comes my way.",
           p3: 'Head over to my <image /> <O>GitHub</O> account to see my projects!'
         },
         about: {
           p1: "I was born on February 6, 2002 in Seville.",
-          p2: "Since I was a child I have always liked engineering and understanding systems in which different elements interact with each other dynamically or automatically. I could spend hours observing and analyzing these types of systems, whether they are in nature, architecture, machinery or human beings.",
-          p3: "In 2013, when I was 11, I started surfing forums, becoming familiar with the Internet beyond the <i>mainstream</i> platforms (such as Instagram, Facebook or Youtube).",
-          p4: "At the age of 13 I became curious about web protocols, the TOR router and HTML, and with this I began to delve deeper into the world of programming, networks, operating Systems, and by inertia, cybersecurity.",
-          p5: "After this it was clear to me that these four paradigms were made to be my vocation.",
-          p6: "The vast majority of what I have learned has been on my own.",
+          p2: "From an early age, I have been captivated by engineering and the intricate interactions between various elements within systems. As a curious 11-year-old, I ventured beyond <i>mainstream</i> platforms like Instagram and Facebook, immersing myself in online forums about technology as well as other topics",
+          p3: "At the age of 13, my curiosity led me to delve into web protocols, the TOR router, and the fundamentals of HTML. This journey ignited a strong fascination with programming, networks, and Operating Systems, which naturally extended to the realm of cybersecurity.",
+          p4: "Since then, I have been actively involved in numerous personal projects, continually expanding my skills and knowledge in practical ways. These projects have allowed me to apply my learning, experiment with different technologies, and deepen my understanding of IT and programming.",
+          p5: "After completing my High School education, I decided to pursue a formal study path in IT.",
+          p6: "However, the vast majority of what I have learned has been on my own.",
           quote: "The answers are all out there, we just need to ask the right questions.",
           title1: "Skills",
           title2: "Operating Systems"
@@ -56,18 +56,18 @@ i18next
           changeLanguage: '<uk />  English',
         },
         home: {
-          title: 'Soy Alejandro Zapico,',
+          title: 'Soy Alejandro Zapico.',
           p1: 'Cuando tenía 13 años descubrí la programación, y desde entonces no he parado de aprender.',
-          p2: 'Además de la programación, tengo conocimientos en Ciberseguridad, Redes y Sistemas Operativos, pero mi mayor virtud es la perseverancia y habilidad para aprender lo que tenga por delante.',
+          p2: 'Además de la programación, tengo conocimientos en ciberseguridad, redes y Sistemas Operativos, pero mi mayor virtud es la perseverancia y habilidad para aprender lo que tenga por delante.',
           p3: '¡Pásate por mi cuenta de <image /> <O>GitHub</O> para ver mis proyectos!'
         },
         about: {
           p1: "Nací el 6 de Febrero de 2002 en Sevilla.",
-          p2: "Desde que era niño siempre me ha gustado ingeniar y entender los sistemas en los que diferentes elementos interaccionan entre sí de manera dinámica o automática. Me podía pasar horas observando y analizando este tipo de sistemas, ya sean en la naturaleza, la arquitectura, la maquinaria o en los seres humanos.",
-          p3: "En 2013, cuando tenía 11 años, empecé a surfear foros empezando a familiarizarme con el Internet más allá de las plataformas <i>mainstream</i> (Instagram, Facebook, Youtube).",
-          p4: "A los 13 años, empecé a tener curiosidad sobre los protocolos web, el enrutador TOR y HTML, y con esto empecé a adentrarme más profundo en el mundo de la programación, las redes, los sistemas Operativos, y por inercia, la ciberseguridad.",
-          p5: "Trás esto tuve claro que estos cuatro paradigmas estaban hechos para ser mi vocación.",
-          p6: "En la práctica, la gran mayoría de lo que he aprendido ha sido por mi cuenta.",
+          p2: "Desde que era niño, me ha gustado ingeniar y entender sistemas donde sus diferentes componentes interaccionan entre ellos por sí solos. Con 11 años, me aventuré más allá de las plataformas <i>mainstream</i> como Instagram y Facebook, sumergiéndome en foros en línea sobre tecnología u otros temas.",
+          p3: "A la edad de 13 años, mi curiosidad me llevó a profundizar en los protocolos web, el enrutador TOR y los fundamentos de HTML. Este viaje encendió una gran fascinación por la programación, las redes y los Sistemas Operativos, que naturalmente se extendió al ámbito de la ciberseguridad.",
+          p4: "Desde entonces, he participado activamente en numerosos proyectos personales, ampliando continuamente mis habilidades y conocimientos de forma práctica. Estos proyectos me han permitido aplicar mi aprendizaje, experimentar con diferentes tecnologías y profundizar mi comprensión en la informática general y la programación.",
+          p5: "Después de completar mi educación secundaria, decidí seguir un camino de estudio formal en la informática.",
+          p6: "Sin embargo, la gran mayoría de lo que he aprendido ha sido por mi cuenta.",
           quote: "Todas las respuestas están ahí fuera, simplemente tenemos que hacer las preguntas adecuadas.",
           title1: "Habilidades",
           title2: "Sistemas Operativos"
