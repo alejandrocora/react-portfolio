@@ -1,4 +1,4 @@
-import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiGnubash, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from "react-icons/si";
+import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiGnubash, SiPostman, SiGithub, SiVisualstudio, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { Trans } from 'react-i18next';
 
@@ -46,6 +46,21 @@ function About() {
         </div>
       </div>
       <h1 className="section_title"><Trans i18nKey="about.title2" /></h1>
+      <div className="skill_list">
+        <div>
+          <SiPostman />
+          <p>Postman</p>
+        </div>
+        <div>
+          <SiVisualstudio />
+          <p>Visual Studio</p>
+        </div>
+        <div>
+          <SiGithub />
+          <p>GitHub</p>
+        </div>
+      </div>
+      <h1 className="section_title"><Trans i18nKey="about.title3" /></h1>
       <div className="skill_list">
         <div>
           <SiArchlinux />

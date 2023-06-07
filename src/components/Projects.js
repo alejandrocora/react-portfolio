@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div id="projects">
       <hr />
-      <div className="content-container project">
+      <div className="project">
         <div>
           <h1 className="section_title"><Trans i18nKey="projects.title" /></h1>
           <h2><img src={BlLogo} className="logo" />Bizleaker</h2>

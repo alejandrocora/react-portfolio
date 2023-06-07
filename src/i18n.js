@@ -19,7 +19,7 @@ i18next
         home: {
           title: 'I am Alejandro Zapico.',
           p1: "When I was 13 I discovered coding and I haven't stopped learning since.",
-          p2: "In addition to coding, I am knowledgeable in cybersecurity, networks, and Operating Systems, but my greatest skill is my ability to learn whatever comes my way.",
+          p2: "In addition to coding, I am knowledgeable in <b>cybersecurity</b>, <b>networks</b>, and <b>Operating Systems</b>, but my greatest skill is my ability to learn whatever comes my way.",
           p3: 'Head over to my <image /> <O>GitHub</O> account to see my projects!'
         },
         about: {
@@ -30,8 +30,9 @@ i18next
           p5: "After completing my High School education, I decided to pursue a formal study path in IT.",
           p6: "However, the vast majority of what I have learned has been on my own.",
           quote: "The answers are all out there, we just need to ask the right questions.",
-          title1: "Skills",
-          title2: "Operating Systems"
+          title1: "Professional Skillset",
+          title2: "Tools I use",
+          title3: "Operating Systems I use",
         },
         projects: {
           title: "Some of my projects ",
@@ -52,12 +53,12 @@ i18next
           about: 'Sobre mí',
           projects: 'Proyectos',
           contact: 'Contacto',
-          changeLanguage: '<uk />  English',
+          changeLanguage: '<uk /> English',
         },
         home: {
           title: 'Soy Alejandro Zapico.',
           p1: 'Cuando tenía 13 años descubrí la programación, y desde entonces no he parado de aprender.',
-          p2: 'Además de la programación, tengo conocimientos en ciberseguridad, redes y Sistemas Operativos, pero mi mayor virtud es la perseverancia y habilidad para aprender lo que tenga por delante.',
+          p2: 'Además de la programación, tengo conocimientos en <b>ciberseguridad</b>, <b>redes</b> y <b>Sistemas Operativos</b>, pero mi mayor virtud es la perseverancia y habilidad para aprender lo que tenga por delante.',
           p3: '¡Pásate por mi cuenta de <image /> <O>GitHub</O> para ver mis proyectos!'
         },
         about: {
@@ -68,8 +69,9 @@ i18next
           p5: "Después de completar mi educación secundaria, decidí seguir un camino de estudio formal en la informática.",
           p6: "Sin embargo, la gran mayoría de lo que he aprendido ha sido por mi cuenta.",
           quote: "Todas las respuestas están ahí fuera, simplemente tenemos que hacer las preguntas adecuadas.",
-          title1: "Habilidades",
-          title2: "Sistemas Operativos"
+          title1: "Habilidades Profesionales",
+          title2: "Herramientas",
+          title3: "Sistemas Operativos"
         },
         projects: {
           title: "Algunos de mis proyectos",

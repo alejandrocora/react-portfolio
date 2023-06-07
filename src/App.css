@@ -81,7 +81,7 @@ a {color: white;}
 
 .content-container {
   box-sizing: content-box;
-  font-size: 35px;
+  font-size: 30px;
   padding: 10px 50px 25px 50px;
   overflow: auto;
 }
@@ -99,6 +99,10 @@ a {color: white;}
 .intro {
   background-color: black;
   padding-top: 50px;
+}
+
+.intro p {
+  font-size: 35px;
 }
 
 .intro h1 {
@@ -151,6 +155,14 @@ hr {
   padding: 20px;
 }
 
+.project {
+  box-sizing: content-box;
+  font-size: 30px;
+  padding: 10px 30px 25px 30px;
+  overflow: auto;
+  margin: 0;
+}
+
 .project .screenshot {
   display: block;
   margin-left: auto;
@@ -158,8 +170,9 @@ hr {
   width: 750px;
 }
 
-.project > h2 {
+.project h2 {
   font-size: 40px;
+  padding-top: 15px;
 }
 
 .project .logo {
@@ -182,7 +195,7 @@ hr {
 
 .contact-container div {
   display: table-row-group;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 0px;
   text-align: center;
   padding-bottom: 1px;
 }
@@ -205,6 +218,7 @@ hr {
 }
 
 .quote {
+  margin: 0;
   font-size: 35px;
   font-weight: bold;
   font-style: italic;
@@ -219,13 +233,15 @@ hr {
   background-color: black;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .content-container {
     margin-right: 0.5vw;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .intro {padding-top: 150px;}
+
+  .intro p {font-size: 30px}
 
   .profile-image {
     float: none;
@@ -249,6 +265,12 @@ hr {
     padding-left: 15vw;
     padding-right: 15vw;
   }
+  
+  .project {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -280,6 +302,16 @@ hr {
 }
 
 @media (max-width: 500px) {
+
+  .intro h1 {
+    font-size: 40px;
+  }
+
+  .content-container {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
   .skill_list p {
     font-size: 20px;
     margin: 5px 0px 10px 0px;
