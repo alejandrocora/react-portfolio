@@ -5,8 +5,6 @@ import { useState, useEffect } from 'react';
 
 function Contact() {
 
-  //<AiOutlineCopy className="copyLogo" onClick={() => copyToClipboard('+34 663 300 476', 0)} />, <AiOutlineCopy className="copyLogo" onClick={() => copyToClipboard('alzapicolara@gmail.com', 1)}/>
-
   const [copyData, setCopyData] = useState([false, false]);
 
   function copyToClipboard(text, index) {
