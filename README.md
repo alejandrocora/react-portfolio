@@ -6,6 +6,10 @@ To download:
 
 `$ git clone https://github.com/alejandrocora/react-portfolio`
 
+Downloading yarn:
+
+`$ npm install --global yarn`
+
 To start the Development server:
 
 `$ yarn start-client`
