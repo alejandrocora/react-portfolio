@@ -42,7 +42,7 @@ i18next
         },
         contact: 'Contact',
         footer: {
-          p1: "Site made from scratch with Node-js + React in Debian. TLS and Domain configured manually.",
+          p1: "Site made from scratch with Node.js + React in Debian. TLS and Domain configured manually.",
           p2: "<O>Source Code.</O>"
         }
       }

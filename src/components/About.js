@@ -1,5 +1,6 @@
-import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiGnubash, SiPostman, SiGithub, SiVisualstudio, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiMongodb, SiPostman, SiGithub, SiVisualstudio, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from 'react-icons/si';
+import { AiFillSecurityScan } from 'react-icons/ai';
+import { FaJava } from 'react-icons/fa';
 import { Trans } from 'react-i18next';
 
 function About() {
@@ -17,20 +18,12 @@ function About() {
           <p>Python</p>
         </div>
         <div>
-          <SiSelenium />
-          <p>Selenium</p>
-        </div>
-        <div>
           <SiJavascript />
           <p>JavaScript</p>
         </div>
         <div>
           <SiNodedotjs />
           <p>Node.js</p>
-        </div>
-        <div>
-          <SiReact />
-          <p>React</p>
         </div>
         <div>
           <SiCplusplus />
@@ -41,8 +34,16 @@ function About() {
           <p>Java</p>
         </div>
         <div>
-          <SiGnubash />
-          <p>Bash Scripting</p>
+          <SiSelenium />
+          <p>Selenium</p>
+        </div>
+        <div>
+          <SiReact />
+          <p>React</p>
+        </div>
+        <div>
+          <AiFillSecurityScan />
+          <p><a href="https://certs.ine.com/f2e4cdc3-14ab-4ffb-b17b-36f874f2591f" target="_blank">INE eJPT</a></p>
         </div>
       </div>
       <h1 className="section_title"><Trans i18nKey="about.title2" /></h1>
