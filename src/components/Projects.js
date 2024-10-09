@@ -14,6 +14,12 @@ function Projects() {
           <p><Trans i18nKey="projects.bizleaker" components={ { O: <a target="_blank" href="https://github.com/alejandrocora/bizleaker" />} } /></p>
           <img className="screenshot" src={BlScreenshot} />
         </div>
+
+        <div>
+          <h2>Youploader</h2>
+          <p><Trans i18nKey="projects.youploader" components={ { O: <a target="_blank" href="https://github.com/alejandrocora/youploader" />} } /></p>
+        </div>
+
         <div>
           <h2><img src={BCMNLogo} className="logo" />Better Call Me Now!</h2>
           <p><Trans i18nKey="projects.bcmn1" components={ { O: <a target="_blank" href="https://github.com/alejandrocora/bizleaker" />} } /></p>

@@ -37,6 +37,7 @@ i18next
         projects: {
           title: "Some of my projects ",
           bizleaker: '<O>Bizleaker</O> is a tool that automatically extracts names (usually first name and last name initials) from telephone numbers, using an <i>infoleak</i> from the "Bizum" tool. This can be used to automate and/or speed up scam detection, prevent harassment, or simpler tasks like identifying customers or friends.',
+          youploader: '<O>Youploader</O> is a command-line tool designed to automate YouTube video uploads and video reporting. It allows users to upload videos with custom metadata or report YouTube videos by specifying URLs, all from the convenience of a terminal. This program supports headless mode for background operation and allows you to log the output for later review.',
           bcmn1: '<O>Better Call Me Now!</O> automates call requests, such as those found on insurance sites, clinics, or phone companies, to a phone number.',
           bcmn2: 'It can be used to measure the quality of customer service sites, expedite contact with various clients or services, or test the viability of a telephone line, among other uses.',
         },
@@ -76,6 +77,7 @@ i18next
         projects: {
           title: "Algunos de mis proyectos",
           bizleaker: '<O>Bizleaker</O> es una herramienta que extrae de manera automatizada nombres (normalmente nombre e iniciales de los apellidos) de números de teléfono, usando un <i>infoleak</i> de la herramienta "Bizum". Esto puede ser usado para automatizar y/o agilizar la detección de estafas, prevenir el acoso o tareas más simples como identificar a clientes o amigos.',
+          youploader: '<O>Youploader</O> es una herramienta de línea de comandos diseñada para automatizar la subida de videos a YouTube y la denuncia de videos. Permite a los usuarios subir videos con metadatos personalizados o denunciar videos de YouTube especificando las URL, todo desde la conveniencia de un terminal. Este programa soporta el modo sin interfaz gráfica (headless) para operar en segundo plano y permite guardar el registro de salida para su posterior revisión.',
           bcmn1: '<O>Better Call Me Now!</O> automatiza las peticiones de llamada, como las que se encuentran en sitios de seguros, clínicas o compañías de telefonía, a un número de teléfono. ',
           bcmn2: 'Puede ser usado para medir la calidad de sitios de atención al cliente, agilizar el contacto con varios clientes o servicios, o probar la viabilidad de una línea telefónica, entre otros usos.',
         },
