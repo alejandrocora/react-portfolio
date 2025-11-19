@@ -1,26 +1,34 @@
 # Alejandrocora's React Portfolio
 
-Very simple React Portfolio made from scratch.
+A lightweight React portfolio project built from scratch.
 
-To download:
-
-`$ git clone https://github.com/alejandrocora/react-portfolio`
-
-Downloading yarn:
-
-`$ npm install --global yarn`
-
-To start the Development server:
-
-`$ yarn start-client`
-
-To build the Distribution files:
-
-`$ yarn build`
-
-To run the final server:
-
+## 📦 Clone the Repository
+```bash
+git clone https://github.com/alejandrocora/react-portfolio
 ```
-$ cd server
-$ yarn start
+
+## 📥 Install Project Packages
+```bash
+npm install
+```
+
+## 📚 Install Yarn (if you don't already have it)
+```bash
+npm install --global yarn
+```
+
+## 🛠️ Start the Development Server
+```bash
+yarn start-client
+```
+
+## 🏗️ Build the Production Bundle
+```bash
+yarn build
+```
+
+## 🚀 Launch the Server
+```bash
+cd server
+yarn start
 ```
