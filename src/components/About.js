@@ -1,6 +1,6 @@
-import { SiCplusplus, SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiMongodb, SiPostman, SiGithub, SiVisualstudio, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from 'react-icons/si';
+import { SiNodedotjs, SiJavascript, SiReact, SiSelenium, SiMongodb, SiPostman, SiGithub, SiVisualstudio, SiArchlinux, SiCentos, SiDebian, SiGentoo, SiKalilinux, SiPython, SiMacos, SiUbuntu, SiWindows } from 'react-icons/si';
 import { AiFillSecurityScan } from 'react-icons/ai';
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaBinoculars } from 'react-icons/fa';
 import { Trans } from 'react-i18next';
 
 function About() {
@@ -8,11 +8,11 @@ function About() {
     { icon: <SiPython />, label: 'Python' },
     { icon: <SiJavascript />, label: 'JavaScript' },
     { icon: <SiNodedotjs />, label: 'Node.js' },
-    { icon: <SiCplusplus />, label: 'C++' },
     { icon: <FaJava />, label: 'Java' },
     { icon: <SiSelenium />, label: 'Selenium' },
     { icon: <SiReact />, label: 'React' },
     { icon: <AiFillSecurityScan />, label: <a href="https://certs.ine.com/f2e4cdc3-14ab-4ffb-b17b-36f874f2591f" target="_blank" rel="noreferrer">INE eJPT</a> },
+    { icon: <FaBinoculars />, label: 'OSINT' },
   ];
 
   const tools = [
@@ -40,7 +40,10 @@ function About() {
       <div className="content-container">
         <p><Trans i18nKey="about.p1" /></p>
       </div>
-      <p className="quote">“<Trans i18nKey="about.quote" />”</p>
+      <blockquote className="quote">
+        <p>“<Trans i18nKey="about.quote" />”</p>
+        <cite>— Stafford Beer</cite>
+      </blockquote>
       <h1 className="section-title"><hr /><Trans i18nKey="about.title1" /></h1>
       <div className="skill-list">
         {skills.map((skill, i) => (

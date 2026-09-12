@@ -1,6 +1,5 @@
-import BlScreenshot from '../images/bizleaker_screenshot.png';
-import LegitFlip from '../images/legit_flip.png';
-import GhostgramScreenshot from '../images/ghostgram_screenshot.png';
+import { FaWhatsapp, FaSearch } from 'react-icons/fa';
+import { TbCoinFilled } from 'react-icons/tb';
 import { Trans } from 'react-i18next';
 
 function Projects() {
@@ -10,12 +9,30 @@ function Projects() {
       <h1 className="main-title"><Trans i18nKey="projects.title" /></h1>
 
       <div className="project-grid">
-        {/* Bizleaker */}
         <div className="project-card">
-          <div
-            className="project-img"
-            style={{ backgroundImage: `url(${BlScreenshot})` }}
-          ></div>
+          <div className="project-img placeholder">
+            <FaWhatsapp />
+          </div>
+          <div className="project-text">
+            <h3>WhatsApp Media Enumeration</h3>
+            <p><Trans i18nKey="projects.wame" /></p>
+          </div>
+          <div className="project-buttons">
+            <a
+              aria-label="WhatsApp Media Enumeration"
+              href="https://github.com/alejandrocora/WhatsAppMediaEnumeration"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-img placeholder">
+            <FaSearch />
+          </div>
           <div className="project-text">
             <h3>Bizleaker</h3>
             <p><Trans i18nKey="projects.bizleaker" /></p>
@@ -32,12 +49,10 @@ function Projects() {
           </div>
         </div>
 
-        {/* LegitFlip */}
         <div className="project-card">
-          <div
-            className="project-img"
-            style={{ backgroundImage: `url(${LegitFlip})` }}
-          ></div>
+          <div className="project-img placeholder">
+            <TbCoinFilled />
+          </div>
           <div className="project-text">
             <h3>Legit-Flip.io</h3>
             <p><Trans i18nKey="projects.legitflip" /></p>
@@ -46,28 +61,6 @@ function Projects() {
             <a
               aria-label="Legit-Flip.io"
               href="https://legit-flip.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit
-            </a>
-          </div>
-        </div>
-
-        {/* Ghostgram */}
-        <div className="project-card">
-          <div
-            className="project-img"
-            style={{ backgroundImage: `url(${GhostgramScreenshot})` }}
-          ></div>
-          <div className="project-text">
-            <h3>Ghostgram</h3>
-            <p><Trans i18nKey="projects.ghostgram" /></p>
-          </div>
-          <div className="project-buttons">
-            <a
-              aria-label="Ghostgram"
-              href="https://github.com/alejandrocora/ghostgram"
               target="_blank"
               rel="noopener noreferrer"
             >

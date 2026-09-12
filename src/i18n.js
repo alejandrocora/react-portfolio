@@ -18,13 +18,13 @@ i18next
           },
           home: {
             title: "Hello, I am Alejandro.",
-            p1: "I am a cybersecurity technician and programmer.",
+            p1: "Penetration tester · SOC analyst · security researcher",
             viewWork: "View my work ↓"
           },
           about: {
             main_title: "About",
-            p1: "I was born in Seville in 2002 and discovered my passion for programming and cybersecurity at age 13. Over the years, I have developed strong skills in programming, networks, and IT systems, and I am a certified pentester and SOC analyst. I enjoy working on personal projects to apply what I learn, explore new technologies, and continuously improve my skills.",
-            quote: "The answers are all out there, we just need to ask the right questions.",
+            p1: "I'm a cybersecurity professional and certified penetration tester (INE eJPT) with a SOC analyst background, specializing in offensive security, OSINT, and vulnerability research. Over a decade of self-driven learning has given me a track record of hands-on work — from OSINT tooling to proof-of-concept research and white-papers documenting real-world platform weaknesses. I work fluently across Python and JavaScript/Node.js on Linux, and I'm comfortable on both the offensive and defensive sides of security. I'm always looking to apply my skills to meaningful problems and keep sharpening them.",
+            quote: "The purpose of a system is what it does. There is after all no point in claiming that the purpose of a system is to do what it constantly fails to do.",
             title1: "Professional Skillset",
             title2: "Tools I use",
             title3: "Operating Systems I use",
@@ -36,11 +36,10 @@ i18next
             bcmn1: 'Better Call Me Now! automates call requests for insurance, clinics, or service lines.',
             bcmn2: 'It helps measure service quality, contact clients faster, or test phone lines.',
             legitflip: 'Legit Flip lets multiple users flip a virtual coin online, ensuring transparent results.',
-            ghostgram: 'Ghostgram is an efficient automation tool designed to delete all your Instagram comments quickly and safely, overcoming the platform’s limitations.'
+            wame: 'A proof-of-concept and white-paper documenting a media enumeration technique in WhatsApp, focused on the research and its privacy implications rather than a ready-to-use tool.'
 },
           contact: 'Contact',
           footer: {
-            p1: "Site built from scratch with Node.js + React on Debian. TLS and Domain configured manually.",
             p2: "<O>Source Code.</O>"
           }
         }
@@ -55,13 +54,13 @@ i18next
           },
           home: {
             title: 'Soy Alejandro Zapico.',
-            p1: 'Soy técnico en ciberseguridad y programador.',
+            p1: "Pentester · Analista SOC · Investigador de seguridad",
             viewWork: "Ver mi trabajo ↓"
           },
           about: {
             main_title: "Sobre mí",
-            p1: "Nací en Sevilla en 2002 y descubrí mi pasión por la programación y la ciberseguridad a los 13 años. A lo largo de los años, he desarrollado habilidades sólidas en programación, redes y sistemas informáticos, y soy pentester certificado y analista SOC. Disfruto realizando proyectos personales para aplicar lo aprendido, explorar nuevas tecnologías y mejorar continuamente mis habilidades.",
-            quote: "Todas las respuestas están ahí fuera, simplemente tenemos que hacer las preguntas adecuadas.",
+            p1: "Soy un profesional de la ciberseguridad y pentester certificado (INE eJPT) con experiencia como analista SOC, especializado en seguridad ofensiva, OSINT e investigación de vulnerabilidades. Más de una década de aprendizaje autodidacta me ha dado un historial de trabajo práctico: desde herramientas de OSINT hasta pruebas de concepto y white-papers que documentan debilidades reales de plataformas. Trabajo con fluidez en Python y JavaScript/Node.js sobre Linux, y me manejo con soltura tanto en el lado ofensivo como defensivo de la seguridad. Siempre busco aplicar mis habilidades a problemas relevantes y seguir mejorándolas.",
+            quote: "El propósito de un sistema es lo que hace. No tiene sentido, después de todo, afirmar que el propósito de un sistema es hacer lo que constantemente no logra hacer.",
             title1: "Habilidades Profesionales",
             title2: "Herramientas",
             title3: "Sistemas Operativos"
@@ -73,11 +72,10 @@ i18next
             bcmn1: 'Better Call Me Now! automatiza solicitudes de llamada para seguros, clínicas o líneas de servicio.',
             bcmn2: 'Ayuda a medir la calidad del servicio, contactar clientes más rápido o probar líneas telefónicas.',
             legitflip: 'Legit Flip permite lanzar una moneda virtual entre varios usuarios, asegurando resultados transparentes.',
-            ghostgram: 'Ghostgram es una herramienta de automatización eficiente diseñada para eliminar todos tus comentarios de Instagram de manera rápida y segura, superando las limitaciones de la plataforma.'
+            wame: 'Una prueba de concepto y white-paper que documenta una técnica de enumeración de medios en WhatsApp, centrada en la investigación y sus implicaciones de privacidad más que en una herramienta lista para usar.'
 },
           contact: 'Contacto',
           footer: {
-            p1: "Sitio hecho desde cero con Node.js + React en Debian. TLS y dominio configurado manualmente.",
             p2: "<O>Código Fuente.</O>"
           }
         }
