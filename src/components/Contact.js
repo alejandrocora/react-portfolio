@@ -42,7 +42,7 @@ function Contact() {
         </div>
         <div>
           <AiFillLinkedin className="logo" />
-          <p><a target="_blank" href="https://www.linkedin.com/in/alejandro-zapico-lara-597716229/">alejandro-zapico...</a></p>
+          <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alejandro-zapico-lara/">alejandro-zapico...</a></p>
         </div>
       </div>
     </div>
